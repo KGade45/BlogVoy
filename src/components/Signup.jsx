@@ -61,7 +61,7 @@ function Signup() {
                         <Input label="Password: " placeholder="Enter your Password" type="password" {...register("password", { required: true })} />
                         <Button
                             type="submit"
-                            className="w-full"
+                            className="w-full bg-blue-300"
                         >Create account</Button>
                     </div>
                 </form>
